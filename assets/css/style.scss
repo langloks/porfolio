@@ -73,7 +73,13 @@ $highlight-secondary:#B5B507;
 $main-color: #ffffff;
 $sub-color: #616060;
 
-
+	$color-bg: #f8c792;
+	$color-link: #000;
+	$color-link-hover: #000;
+	$color-border: #a7927b;
+	$marquee-bg: #000;
+	$marquee-text: #fff;
+	$menu-focus: #775e41;
 
 [data-scroll-direction="horizontal"] [data-scroll-container] {
   display: flex;
@@ -619,11 +625,7 @@ margin-top: 5vh;
     @include for-size(desktop-up) {
       width: 20vw;
      }
-
-
   }
-
-
   .capture{
     
     @include for-size(phone-only){
@@ -654,8 +656,10 @@ margin-top: 5vh;
     }
   }
 
-//project 'algorythm' draggable items
+  //playground menu 
 
+
+//project 'algorythm' draggable items
 .container-draggable{
 height: 100vh;
 width: 60vw;
@@ -687,58 +691,6 @@ overflow-x:visible;
   z-index: 16;
  }
 
-// #b-canvas{
-//   .mini-b-canvas{
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 100vw;
-//     height: 100vh;
-//     border:$text-color 2px solid;
-//     }
-  
-//     div.b-cursor {
-//       position: absolute;
-//       top: 50%;
-//       left: 50%;
-//       width: 10px;
-//       height: 10px;
-//       background-color: #29044a;
-//       border-radius: 50%;
-//       transform: translate(-50%, -50%);
-//       transition: width 0.25s, height 0.25s;
-//     }
-    
-//     div.b-cursor.is-down {
-//       width: 40px;
-//       height: 40px;
-//     }
-    
-//     .container-canvas{
-//       display:flex;
-//       flex-direction:column;
-//       justify-content: flex-end;
-
-//     }
-//     .canvas-nav{
-//       user-select: none;
-//       z-index: 1;
-      
-
-
-//       .picker{
-//         display:inline-block;
-//         height: 40px;
-//         width: 40px;
-//         border-radius: 50%;
-//         margin:10px 10px 0 0;
-//         text-decoration: none;
-//       }
-//   }
-  
-  
-   
-// }
   .breather{
     width: 10vw;
     height: 10vh;
@@ -748,6 +700,7 @@ overflow-x:visible;
     position: relative;
 width: fit-content;
 margin-left: -8vw;
+
 
   #left{
     background-color: #A4BCFF;
@@ -773,4 +726,5 @@ margin-left: -8vw;
       height: 60vh;
     }
   }
+  
   

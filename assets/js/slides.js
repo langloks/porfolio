@@ -3,9 +3,9 @@ const paintings = [
   { src: "./assets/images/portfolio_preview/test.png" },
   { src: "./assets/images/portfolio_preview/botanica.png" },
   { src: "./assets/images/portfolio_preview/algo.png" },
+  { src: "./assets/images/portfolio_preview/canva.png" },
   { src: "./assets/images/portfolio_preview/narci.png" },
-  { src: "./assets/images/portfolio_preview/replace1.png" },
-  { src: "./assets/images/portfolio_preview/replace2.png" }
+  { src: "./assets/images/portfolio_preview/shifting.png" }
 ]
 const canvas = document.querySelector("div.canvas-holder canvas")
 const sandbox = new GlslCanvas(canvas)
